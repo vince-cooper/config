@@ -22,10 +22,11 @@ espressoCore = "3.6.1"
 
 sdk_kext = "0.0.2-SNAPSHOT"
 lib_imageloader = "0.0.1-SNAPSHOT"
-common_arouter = "0.0.1-SNAPSHOT"
+common_module= "0.0.1-SNAPSHOT"
 
 glide = "4.11.0"
 arouter = "1.5.2"
+eventbus = "3.3.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -40,16 +41,18 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 
 sdk-kext = { group = "com.wangwh.sdk", name = "kext", version.ref = "sdk_kext" }
 libs-imageloader = { group = "com.wangwh.libs", name = "imageloader", version.ref = "lib_imageloader" }
-common-arouter = { group = "com.wangwh.libs", name = "imageloader", version.ref = "common_arouter" }
+common_module = { group = "com.wangwh.commons", name = "module", version.ref = "common_module" }
 
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
 glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
 arouter-api = { group = "com.alibaba", name = "arouter-api", version.ref = "arouter" }
 arouter-compiler = { group = "com.alibaba", name = "arouter-compiler", version.ref = "arouter" }
+eventbus = { group = "org.greenrobot", name = "eventbus", version.ref = "eventbus" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "androidLibrary" }
 maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "mavenPublish" }
 
