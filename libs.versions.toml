@@ -24,6 +24,7 @@ sdk_kext = "0.0.2-SNAPSHOT"
 lib_imageloader = "0.0.1-SNAPSHOT"
 common_module= "0.0.1-SNAPSHOT"
 module_login= "0.0.1-SNAPSHOT"
+module_my= "0.0.1-SNAPSHOT"
 
 glide = "4.11.0"
 arouter = "1.5.2"
@@ -44,6 +45,7 @@ sdk-kext = { group = "com.wangwh.sdk", name = "kext", version.ref = "sdk_kext" }
 libs-imageloader = { group = "com.wangwh.libs", name = "imageloader", version.ref = "lib_imageloader" }
 commons_module = { group = "com.wangwh.commons", name = "module", version.ref = "common_module" }
 modules_login = { group = "com.wangwh.modules", name = "login", version.ref = "module_login" }
+modules_my = { group = "com.wangwh.modules", name = "my", version.ref = "module_my" }
 
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
 glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
