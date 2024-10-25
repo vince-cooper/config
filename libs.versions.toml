@@ -15,16 +15,11 @@ lifecycleRuntimeKtx = "2.8.6"
 appcompat = "1.7.0"
 material = "1.12.0"
 constraintlayout = "2.1.4"
+startup = "1.1.1"
 
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
-
-sdk_kext = "0.0.2-SNAPSHOT"
-lib_imageloader = "0.0.1-SNAPSHOT"
-common_module= "0.0.1-SNAPSHOT"
-module_login= "0.0.1-SNAPSHOT"
-module_my= "0.0.1-SNAPSHOT"
 
 glide = "4.11.0"
 arouter = "1.5.2"
@@ -36,16 +31,17 @@ androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecyc
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-startup = { group = "androidx.startup", name = "startup-runtime", version.ref = "startup" }
 
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 
-sdk-kext = { group = "com.wangwh.sdk", name = "kext", version.ref = "sdk_kext" }
-libs-imageloader = { group = "com.wangwh.libs", name = "imageloader", version.ref = "lib_imageloader" }
-commons_module = { group = "com.wangwh.commons", name = "module", version.ref = "common_module" }
-modules_login = { group = "com.wangwh.modules", name = "login", version.ref = "module_login" }
-modules_my = { group = "com.wangwh.modules", name = "my", version.ref = "module_my" }
+sdk-kext = { group = "com.wangwh.sdk", name = "kext", version = "0.0.7-SNAPSHOT" }
+lib-imageloader = { group = "com.wangwh.libs", name = "imageloader", version = "0.0.2-SNAPSHOT" }
+common-module = { group = "com.wangwh.commons", name = "module", version = "0.0.2-SNAPSHOT" }
+module-login = { group = "com.wangwh.modules", name = "login", version = "0.0.2-SNAPSHOT" }
+module-my = { group = "com.wangwh.modules", name = "my", version = "0.0.2-SNAPSHOT" }
 
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
 glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
